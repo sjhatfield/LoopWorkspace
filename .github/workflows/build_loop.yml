@@ -263,7 +263,7 @@ jobs:
           # Submodule Loop patches:
           # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
           # Remove the "#" sign from the beginning of the line below to activate:
-          curl https://github.com/OmniBLE/commit/330e5a2425e4d724ad3f7aa3e115c5820fb8ad21.patch | git apply -v --directory=OmniBLE
+          #curl https://github.com/loopnlearn/Loop/commit/d206432b024279ef710df462b20bd464cd9682d4.patch | git apply --directory=Loop -v --whitespace=fix
 
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
@@ -271,6 +271,7 @@ jobs:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
 
           # Submodule xxxxx patches:
+          curl https://github.com/LoopKit/OmniBLE/commit/330e5a2425e4d724ad3f7aa3e115c5820fb8ad21.patch | git apply -v --directory=OmniBLE
 
           # Add patches for customization of additional submodules by following the templates above, 
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
