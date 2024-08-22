@@ -271,7 +271,7 @@ jobs:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
 
           # Submodule xxxxx patches:
-          curl https://github.com/LoopKit/OmniBLE/commit/330e5a2425e4d724ad3f7aa3e115c5820fb8ad21.patch | git apply -v --directory=OmniBLE
+          curl https://github.com/sjhatfield/OmniBLE/commit/330e5a2425e4d724ad3f7aa3e115c5820fb8ad21.patch | git apply -v --directory=OmniBLE
 
           # Add patches for customization of additional submodules by following the templates above, 
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
