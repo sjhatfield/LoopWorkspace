@@ -285,7 +285,9 @@ jobs:
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           future_carbs_4h \
           watch_title \
-          2002
+          2002 \
+          basal_lock \
+          override_sens
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
